@@ -65,6 +65,7 @@ add php files to /var/www/html
 load php file
 change web folder permissions
 sudo chmod -R 400 /var/www/html/*
+ sudo usermod -a -G www-data pi
 
 compile toggle.c similar to RaspOPC above.
 test toggle
@@ -73,11 +74,15 @@ test toggle
 sudo vi ../apache2.conf 
 configure https
 sudo vi 000-default-le-ssl.conf 
+repoint http to https
+sudo vi 000-default.conf 
 
 request domain name from google
 install letsencrypt
 run certbot
 restart apache
 sudo apachectl restart
+
+setup password for https
 
 
