@@ -32,6 +32,7 @@ sudo ./RaspOPC
 installed as a service to start at boot
 sudo vi /etc/systemd/system/opcua.service
 added the following content:
+
 [Unit]
 Description=OPCUA Service for GPIO devices
 Requires=systemd-networkd.socket
