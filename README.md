@@ -57,6 +57,14 @@ active
 
 Now OPCUA Server is running.
 
+install apache2
+sudo apt-get install apache2
+test web server
+install php
+add php files to /var/www/html
+load php file
+
+compile toggle.c similar to RaspOPC above.
 
 
 
