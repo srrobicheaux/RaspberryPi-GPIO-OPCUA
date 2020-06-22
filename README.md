@@ -46,6 +46,7 @@ RestartSec=5
 WantedBy=multi-user.target
 Alias=opcua.service
 
+sudo chmod 664 /etc/systemd/system/opcua.service
 systemctl is-active opcua.service
 active
 
