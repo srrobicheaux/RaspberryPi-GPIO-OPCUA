@@ -63,8 +63,21 @@ test web server
 install php
 add php files to /var/www/html
 load php file
+change web folder permissions
+sudo chmod -R 400 /var/www/html/*
 
 compile toggle.c similar to RaspOPC above.
+test toggle
+./toggle -node_str 85 -namespace 0 opc.tcp://gpio.process.pw:4840
 
+sudo vi ../apache2.conf 
+configure https
+sudo vi 000-default-le-ssl.conf 
+
+request domain name from google
+install letsencrypt
+run certbot
+restart apache
+sudo apachectl restart
 
 
