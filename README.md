@@ -83,6 +83,7 @@ run certbot
 restart apache
 sudo apachectl restart
 
-setup password for https
+setup password for website via htpasswd
 
-
+I installed Visual Code via Headmelted
+https://github.com/headmelted/codebuilds
