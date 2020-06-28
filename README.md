@@ -18,8 +18,8 @@ I installed the preprequisites for open62541.
 
 
 I then cloned open62541 into the pi user directory.
- git clone https://github.com/open62541/open62541.git
 
+git clone https://github.com/open62541/open62541.git
 mkdir build
 cd build
 cmake ..
