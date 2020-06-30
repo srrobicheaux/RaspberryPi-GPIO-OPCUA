@@ -89,7 +89,7 @@ I installed Visual Code via Headmelted
 https://github.com/headmelted/codebuilds
 
 I installed the gpiod libraries to develop against them.
- 2122  sudo apt-get install gpiod
- 2123  sudo apt-get install libgpiod-dev
+sudo apt-get install gpiod
+sudo apt-get install libgpiod-dev
 
 
